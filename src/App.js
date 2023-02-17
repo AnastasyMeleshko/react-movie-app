@@ -27,7 +27,6 @@ const App = () => {
             <h1>MovieLand</h1>
 
             <div className='search'>
-
                 <input
                     placeholder='Search for movies'
                     value={searchTerm}
@@ -38,7 +37,6 @@ const App = () => {
                     alt='SearchIcon'
                     onClick={() => searchMovies(searchTerm)}
                 />
-
             </div>
 
             {
